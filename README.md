@@ -10,7 +10,7 @@ To use this package, you can import it directly from GitHub:
 ```bash
 go get github.com/kaleabbyh/sdk/mypackage@v1.0.1
 
-** Usage
+Usage
 
 package main
 
@@ -22,7 +22,7 @@ func main() {
 }
 
 
-** Steps to Reproduce
+Steps to Reproduce
 If you'd like to set up a similar project, follow these steps:
 
 1. Create a GitHub Repository
