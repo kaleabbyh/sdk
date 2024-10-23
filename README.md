@@ -1,11 +1,5 @@
 
 
-
-Here is a simple Go package that includes a simple function. 
-This package demonstrates how to create and publish a Go module on GitHub.
-
-
-
 ## Steps to create and publish your own go package
 
 If you'd like to set up, you can follow these steps:
