@@ -1,18 +1,20 @@
 
-# SDK
+
 
 Here is a simple Go package that includes a simple function. 
 This package demonstrates how to create and publish a Go module on GitHub.
 
 
+
 ## Steps to create and publish your own go package
 
-If you'd like to set up a similar project, follow these steps:
+If you'd like to set up, you can follow these steps:
 
 1. **Create a GitHub Repository**  
    Create a new repository on GitHub:
 
    Repository URL: `https://github.com/username/repo-name`
+
 
 
 
@@ -24,6 +26,7 @@ If you'd like to set up a similar project, follow these steps:
    cd project-name
    go mod init github.com/username/repo-name
    ```
+
 
 3. **Write Your Go Code**  
    Create the file `mypackage/mypackage.go` with the following content:
@@ -37,6 +40,7 @@ If you'd like to set up a similar project, follow these steps:
    }
    ```
 
+
 4. **Commit and Push the Code to GitHub**  
    Execute the following commands:
 
@@ -48,6 +52,7 @@ If you'd like to set up a similar project, follow these steps:
    git push -u origin master
    ```
 
+
 5. **Tag a Version (for Go Modules)**  
    Tag your version:
 
@@ -56,12 +61,14 @@ If you'd like to set up a similar project, follow these steps:
    git push origin v1.0.1
    ```
 
+
 6. **Fetch the Package**  
    To use the package, run:
 
    ```bash
    go get github.com/username/repo-name/mypackage@v1.0.1
    ```
+
 
 ## Installation
 
