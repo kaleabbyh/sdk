@@ -29,7 +29,7 @@ func main() {
 }
 ```
 
-## Steps to Reproduce
+## Steps to create and publish your own go package
 
 If you'd like to set up a similar project, follow these steps:
 
