@@ -12,6 +12,7 @@ go get github.com/kaleabbyh/sdk/mypackage@v1.0.1
 
 Usage
 
+```bash
 package main
 
 import "github.com/kaleabbyh/sdk/mypackage"
@@ -28,13 +29,16 @@ If you'd like to set up a similar project, follow these steps:
 1. Create a GitHub Repository
 Create a new repository on GitHub:
 
-Repository URL: https://github.com/kaleabbyh/sdk
+Repository URL: https://github.com/username/repo-name
 
 2. Initialize Go Module
-go mod init github.com/kaleabbyh/sdk
+```bash
+go mod init github.com/username/repo-name
 
 3. Write Your Go Code
 // File: mypackage/mypackage.go
+
+```bash
 package mypackage
 
 // Greet returns a greeting message
@@ -44,16 +48,22 @@ func Greet(name string) string {
 
 
 4. Commit and Push the Code to GitHub
+
+```bash
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/kaleabbyh/sdk.git
+git remote add origin https://github.com/username/repo-name.git
 git push -u origin master
 
 
 5. Tag a Version (for Go Modules)
-git tag v1.0.0
-git push origin v1.0.0
+
+```bash
+git tag v1.0.1
+git push origin v1.0.1
 
 6. Fetch the Package
-go get github.com/kaleabbyh/sdk/mypackage@v1.0.0
+
+```bash
+go get github.com/username/repo-name/mypackage@v1.0.1
