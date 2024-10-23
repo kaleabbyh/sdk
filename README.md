@@ -1,6 +1,6 @@
 Certainly! Here’s the complete Markdown content you can copy into a file:
 
-```markdown
+
 # SDK
 
 A simple Go package that includes a simple function. 
@@ -82,4 +82,4 @@ If you'd like to set up a similar project, follow these steps:
    ```bash
    go get github.com/username/repo-name/mypackage@v1.0.1
    ```
-```
+
