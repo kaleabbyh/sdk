@@ -17,10 +17,14 @@ If you'd like to set up a similar project, follow these steps:
 
    Repository URL: `https://github.com/username/repo-name`
 
+
+
 2. **Initialize Go Module**  
    Run the following command:
 
    ```bash
+   mkdir project-name
+   cd project-name
    go mod init github.com/username/repo-name
    ```
 
