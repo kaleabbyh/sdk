@@ -1,6 +1,6 @@
 
 
-## Steps to create and publish your own go package
+## Steps to create and publish golang package
 
 If you'd like to set up, you can follow these steps:
 
@@ -8,7 +8,6 @@ If you'd like to set up, you can follow these steps:
    Create a new repository on GitHub:
 
    Repository URL: `https://github.com/username/repo-name`
-
 
 
 
