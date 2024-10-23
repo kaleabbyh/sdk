@@ -7,32 +7,6 @@ Here’s the complete Markdown content for how to create and publish golang pack
 A simple Go package that includes a simple function. 
 This package demonstrates how to create and publish a Go module on GitHub.
 
-## Installation
-
-To use this package, you can import it directly from GitHub:
-
-```bash
-go get github.com/kaleabbyh/sdk/mypackage@v1.0.1
-```
-
-## Usage
-
-You can use the package in your Go code as follows:
-
-```go
-package main
-
-import (
-	"fmt"
-
-	"github.com/kaleabbyh/sdk/mypackage"
-)
-
-func main() {
-	greeting := mypackage.Greet("kaleab")
-	fmt.Println(greeting)
-}
-```
 
 ## Steps to create and publish your own go package
 
@@ -88,3 +62,29 @@ If you'd like to set up a similar project, follow these steps:
    go get github.com/username/repo-name/mypackage@v1.0.1
    ```
 
+## Installation
+
+To use this package, you can import it directly from GitHub:
+
+```bash
+go get github.com/kaleabbyh/sdk/mypackage@v1.0.1
+```
+
+## Usage
+
+You can use the package in your Go code as follows:
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/kaleabbyh/sdk/mypackage"
+)
+
+func main() {
+	greeting := mypackage.Greet("kaleab")
+	fmt.Println(greeting)
+}
+```
