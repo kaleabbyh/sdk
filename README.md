@@ -12,7 +12,7 @@ go get github.com/kaleabbyh/sdk/mypackage@v1.0.1
 
 Usage
 
-```bash
+
 package main
 
 import "github.com/kaleabbyh/sdk/mypackage"
@@ -32,13 +32,13 @@ Create a new repository on GitHub:
 Repository URL: https://github.com/username/repo-name
 
 2. Initialize Go Module
-```bash
+
 go mod init github.com/username/repo-name
 
 3. Write Your Go Code
 // File: mypackage/mypackage.go
 
-```bash
+
 package mypackage
 
 // Greet returns a greeting message
@@ -49,7 +49,7 @@ func Greet(name string) string {
 
 4. Commit and Push the Code to GitHub
 
-```bash
+
 git init
 git add .
 git commit -m "Initial commit"
@@ -59,11 +59,10 @@ git push -u origin master
 
 5. Tag a Version (for Go Modules)
 
-```bash
 git tag v1.0.1
 git push origin v1.0.1
 
 6. Fetch the Package
 
-```bash
+
 go get github.com/username/repo-name/mypackage@v1.0.1
