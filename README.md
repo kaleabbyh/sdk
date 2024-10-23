@@ -22,11 +22,15 @@ You can use the package in your Go code as follows:
 ```go
 package main
 
-import "github.com/kaleabbyh/sdk/mypackage"
+import (
+	"fmt"
+
+	"github.com/kaleabbyh/sdk/mypackage"
+)
 
 func main() {
-    greeting := mypackage.Greet("Kaleab")
-    println(greeting)
+	greeting := mypackage.Greet("kaleab")
+	fmt.Println(greeting)
 }
 ```
 
