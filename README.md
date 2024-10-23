@@ -1,4 +1,5 @@
-Certainly! Here’s the complete Markdown content for how to create and publish golang packages on github:
+
+Here’s the complete Markdown content for how to create and publish golang packages on github
 
 
 # SDK
