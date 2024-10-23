@@ -83,5 +83,3 @@ If you'd like to set up a similar project, follow these steps:
    go get github.com/username/repo-name/mypackage@v1.0.1
    ```
 ```
-
-You can copy this entire block and save it in a file with a `.md` extension (like `README.md`). This will make it easy for others to read and copy the code!
