@@ -1,10 +1,7 @@
 
-Here’s the complete Markdown content for how to create and publish golang packages on github
-
-
 # SDK
 
-A simple Go package that includes a simple function. 
+Here is a simple Go package that includes a simple function. 
 This package demonstrates how to create and publish a Go module on GitHub.
 
 
