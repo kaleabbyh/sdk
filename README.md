@@ -1,4 +1,4 @@
-Certainly! Here’s the complete Markdown content you can copy into a file:
+Certainly! Here’s the complete Markdown content for how to create and publish golang packages on github:
 
 
 # SDK
